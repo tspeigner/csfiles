@@ -1,0 +1,13 @@
+pe-rbac=> create extension citext;
+ERROR:  extension "citext" already exists
+
+pe-rbac=> create extension pgcrypto;
+CREATE EXTENSION
+
+puppetdb=> create extension pgcrypto
+puppetdb-> ;
+CREATE EXTENSION
+puppetdb=> create extension pg_trgm;
+CREATE EXTENSION
+puppetdb=> create extension citext;
+CREATE EXTENSION
